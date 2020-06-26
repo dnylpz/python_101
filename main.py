@@ -25,7 +25,7 @@ print('bicicleta cuesta ${} y es: {}'.format(bicicleta[0],bicicleta[1]))
 
 # side note, las cadenas tambien son como listas!, puedes acceder a sus miembros con sus indices
 print('hola mundo'[0:4])
-
+ 
 
 #tambien puede haber listas de listas!
 pelota = [10.00, 'una pelota redonda']
