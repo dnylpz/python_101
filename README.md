@@ -26,5 +26,10 @@ el curso funciona bien en VSCODE y mac
 * clase 9: clases y objectos
 * clase 10: como crear un paquete propio
 
+para cambiar de rama usa
+```bash
+git checkout -b clase1(2,3,4...) && git pull origin clase1(2,3,4...) # conforme vayas avanzando
+```
+
 escribiremos un programa de punto de venta con diversos productos, el producto terminado debe permitir el almacenamiento de datos en una base de datos, 
 y la clasificacion de los productosß
