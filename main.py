@@ -65,3 +65,58 @@ verdad = True
 mentira = False 
 
 print(verdad == mentira)
+
+print('\n')
+# algunos operadores en python
+# = asignacion
+# + suma
+# -  resta
+# * multiplicacion
+# / division
+# % modulo (regresa el 'sobrante' de una division)
+# ** exponente 
+# // division suelo, redonde abajo numero entero mas cercano
+# ejemplos
+x = 5
+y = 11
+print(x+y)
+print(x-y)
+print(x*y)
+print(y/x)
+print(y%x)
+print(x**y)
+print(x//y)
+print('\n')
+# la asignacion se puede complementar con las operaciones
+# ejemplos
+x += 5 # igual a x = x + 5
+x -= 5 # igual a x = x - 5 .. asi con los demas
+
+# Operadores logicos,  estos sirven para hacer operaciones booleanas
+x = True
+y = False 
+print( x and y) # multiplicacion booleana o es x verdad y y verdad?
+print( x or y) # suma booleana o es x verdad o y verdad?
+print(not y) # inversion o negacion booleana
+print('\n')
+# operadores de identidad, esos son para validar si algo es o no otro algo
+print(x is None)
+print(x is y)
+print(x is not None)
+
+print('\n')
+
+# operadores nivel de bit
+#### NAH SON MUY DIFICILES Y EN MI CARRERA NO LOS HE USADO NUNCA 
+# PERO ES BUENO SABER QUE SE PUEDEN HACER OPERACIONES A NIVEL DE BIT DEL DATO SOBRE EL QUE SE APLICAN
+# 
+x =0b0
+y = 0b111
+print(x & y) 
+x = 0b111
+print(x & y)  #AND
+print(x | y)  # OR
+print(x^y) #XOR
+print(~x) #NOT invierte todos los bits
+print(x>>y) #shift bits right
+print(x<<y) # shift bits left
